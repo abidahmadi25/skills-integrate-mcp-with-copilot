@@ -21,13 +21,30 @@
         </div>
       </section>
 
+      <section id="login-container">
+        <h3>Student Login</h3>
+        <form id="login-form">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required placeholder="student username" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required placeholder="password" />
+          </div>
+          <button type="submit">Log In</button>
+        </form>
+        <div id="login-message" class="message hidden"></div>
+        <div id="user-panel" class="hidden">
+          <p>Signed in as <strong id="current-user"></strong></p>
+          <button id="logout-btn" type="button">Log Out</button>
+        </div>
+      </section>
+
       <section id="signup-container">
         <h3>Sign Up for an Activity</h3>
-        <form id="signup-form">
-          <div class="form-group">
-            <label for="email">Student Email:</label>
-            <input type="email" id="email" required placeholder="your-email@mergington.edu" />
-          </div>
+        <p id="auth-note">Please log in above to sign up or manage your registrations.</p>
+        <form id="signup-form" class="hidden">
           <div class="form-group">
             <label for="activity">Select Activity:</label>
             <select id="activity" required>
@@ -37,7 +54,7 @@
           </div>
           <button type="submit">Sign Up</button>
         </form>
-        <div id="message" class="hidden"></div>
+        <div id="message" class="message hidden"></div>
       </section>
     </main>
 
