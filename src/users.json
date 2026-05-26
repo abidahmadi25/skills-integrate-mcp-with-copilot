@@ -1,0 +1,20 @@
+[
+  {
+    "username": "alice",
+    "password": "password123",
+    "name": "Alice Johnson",
+    "email": "alice@mergington.edu"
+  },
+  {
+    "username": "emma",
+    "password": "learning123",
+    "name": "Emma Carter",
+    "email": "emma@mergington.edu"
+  },
+  {
+    "username": "liam",
+    "password": "soccer123",
+    "name": "Liam Rivera",
+    "email": "liam@mergington.edu"
+  }
+]
